@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.gmail</groupId>
 	<artifactId>mailTester</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	
 	<name>mailTester</name>
 		<packaging>war</packaging>
@@ -46,6 +46,29 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		
+		<dependency>
+    <groupId>com.mashape.unirest</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>1.4.5</version>
+	</dependency>
+	
+	
+	<dependency>
+        <groupId>javax.mail</groupId>
+        <artifactId>mail</artifactId>
+        <version>1.4.7</version>
+    </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-gmail -->
+<dependency>
+    <groupId>com.google.apis</groupId>
+    <artifactId>google-api-services-gmail</artifactId>
+    <version>v1-rev105-1.25.0</version>
+</dependency>
+    
 	</dependencies>
 
 	<build>
